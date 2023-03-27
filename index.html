@@ -9,29 +9,38 @@
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet" type="text/css"/>
 </head>
 <body>
+<!-- Início do código -->
     <div id="calculadora">
         <form action="" name="Calculadora">
+            <!-- Criação do display -->
             <input type="text" class="texto-cor" id="text1" name="text1" disabled>
+            <!-- Criação do botão de limpar a tela do display -->
             <input type="text" class="texto-cor" id="text2" name="text2" value="C" onclick="limpardisplay()"><br>
-
+            <!-- Botões de seleção de número -->
             <input type="button" class="botao-cor" name="botao9" value="9" onclick="displaynum(botao9.value)">
             <input type="button" class="botao-cor" name="botao8" value="8" onclick="displaynum(botao8.value)">
             <input type="button" class="botao-cor" name="botao7" value="7" onclick="displaynum(botao7.value)">
+            <!-- Botão de seleção da operação de soma -->
             <input type="button" class="botao-cor" id="botaosoma" name="botaosoma" value="+" onclick="displaynum(botaosoma.value)"><br>
-
+            <!-- Botões de seleção de número -->
             <input type="button" class="botao-cor" name="botao6" value="6" onclick="displaynum(botao6.value)">
             <input type="button" class="botao-cor" name="botao5" value="5" onclick="displaynum(botao5.value)">
             <input type="button" class="botao-cor" name="botao4" value="4" onclick="displaynum(botao4.value)">
+            <!-- Botão de seleção da operação de subtração -->
             <input type="button" class="botao-cor" id="botaosub" name="botaosub" value="-" onclick="displaynum(botaosub.value)"><br>
-
+            <!-- Botões de seleção de número -->
             <input type="button" class="botao-cor" name="botao3" value="3" onclick="displaynum(botao3.value)">
             <input type="button" class="botao-cor" name="botao2" value="2" onclick="displaynum(botao2.value)">
             <input type="button" class="botao-cor" name="botao1" value="1" onclick="displaynum(botao1.value)">
+            <!-- Botão de seleção da operação de multiplicação -->
             <input type="button" class="botao-cor" id="botaomult" name="botaomult" value="*" onclick="displaynum(botaomult.value)"><br>
-
+            <!-- Botões de seleção de ponto decimal -->
             <input type="button" class="botao-cor" name="botao-ponto" value="." onclick="displaynum(botao-ponto.value)">
+            <!-- Botões de seleção de número -->
             <input type="button" class="botao-cor" name="botao0" value="0" onclick="displaynum(botao0.value)">
+            <!-- Botões de realizar operação -->
             <input type="button" class="botao-cor" name="botaoigual" value="=" onclick="text1.value=eval(text1.value)">
+            <!-- Botão de seleção da operação de divisão -->
             <input type="button" class="botao-cor" id="botaodiv" name="botaodiv" value="/" onclick="displaynum(botaodiv.value)"><br>
         </form>
     </div>

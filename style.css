@@ -1,3 +1,4 @@
+/* Definições gerais da página */
 body{
     width: 100%;
     height: 100vh;
@@ -6,6 +7,7 @@ body{
     justify-content: center;
     background: #FFFFFF;
 }
+/* Estilização do texto interno dos botões e display */
 input{
     color: #ecf0f3;
     padding: 17px;
@@ -14,6 +16,7 @@ input{
     font-family: 'Bebas Neue', cursive;
     border-radius: 25%;
 }
+/* Estilização do formato da calculadora */
 form{
     display:inline-block;
     padding: 20px;
@@ -21,9 +24,11 @@ form{
     box-shadow: inset 6px 6px 13px #FFFFFF, 6px 6px 13px #000000;
     background-color: #ecf0f3;
 }
+/* Definição da cor de fundo do display e botão de C */
 .texto-cor{
     background: #000000;
 }
+/* Estilização dos botões */
 .botao-cor{
     background: #000000;
     width: 64px;
@@ -33,6 +38,7 @@ form{
     border-radius: 50%;
     cursor: pointer;
 }
+/* Estilização do display */
 #text1{
     width: 160px;
     height: 26px;
@@ -41,6 +47,7 @@ form{
     text-align: center;
     margin-bottom: 12px;
 }
+/* Estilização do botão C */
 #text2{
     width: 24px;
     height: 26px;
